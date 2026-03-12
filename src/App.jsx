@@ -161,12 +161,12 @@ Responde SOLO con un JSON válido, sin backticks, sin markdown, exactamente así
 
       const response = await fetch("https://api.anthropic.com/v1/messages", {
         method: "POST",
-        headers: { 
-  "Content-Type": "application/json",
-  "x-api-key": "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",
-  "anthropic-version": "2023-06-01",
-  "anthropic-dangerous-direct-browser-access": "true"
-},
+        headers: {
+          "Content-Type": "application/json",
+          "x-api-key": "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",
+          "anthropic-version": "2023-06-01",
+          "anthropic-dangerous-direct-browser-access": "true"
+        },
         body: JSON.stringify({
           model: "claude-sonnet-4-20250514",
           max_tokens: 1000,
