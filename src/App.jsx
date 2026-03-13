@@ -584,7 +584,7 @@ Responde SOLO con un JSON válido, sin backticks, sin markdown, exactamente así
               </p>
 
               <a
-                href="https://www.instagram.com/donalfaro.ec"
+                href="https://www.instagram.com/ideasdonalfaro/"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -596,7 +596,7 @@ Responde SOLO con un JSON válido, sin backticks, sin markdown, exactamente así
                   fontWeight: "700", transition: "opacity 0.2s"
                 }}
               >
-                @DONALFARO.EC →
+                @IDEASDONALFARO →
               </a>
 
               <div style={{
