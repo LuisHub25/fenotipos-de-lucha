@@ -163,7 +163,7 @@ Responde SOLO con un JSON válido, sin backticks, sin markdown, exactamente así
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "x-api-key": "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",
+       "x-api-key": import.meta.env.VITE_ANTHROPIC_KEY,
           "anthropic-version": "2023-06-01",
           "anthropic-dangerous-direct-browser-access": "true"
         },
